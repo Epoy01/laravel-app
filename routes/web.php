@@ -22,3 +22,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('contacts','ContactController');
 
 Route::resource('cms','CustomerController');
+
+Route::resource('students','StudentController');
